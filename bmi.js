@@ -1,6 +1,6 @@
 class BMI {
 
-    //Declare constructor with 2 arguments
+    //Declare constructor with 2 arguments (used in calculations of BMI)
     constructor(height, weight) {
         this.height = height;
         this.weight = weight;
@@ -17,7 +17,9 @@ class BMI {
 }
 
 //instanciating object
-let MyBmi = new BMI(2, 90);
+let myBmi = new BMI(2, 90);
+
+//creating new variable and assigning it the value of the calculated BMI
 let calculatedBMI = MyBmi.calculateBMI();
 
 //Outputting to console
